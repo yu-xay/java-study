@@ -17,23 +17,32 @@ import java.util.Date;
  */
 public class CalendarDemo1 {
 	public static void main(String[] args) {
-		//Calendar默认也表示当前系统时间
-		Calendar calendar 
-			= Calendar.getInstance();
-		/*
-		 * Calendar的toString输出的信息很多
-		 * 但是不能直观的看出具体日期
-		 */
-		System.out.println(calendar);
-		/*
-		 * Date getTime()
-		 * Calendar提供的getTime方法可以获取
-		 * 一个Date，该实例表示的就是当前Calendar
-		 * 所表示的日期
-		 */
-		Date date = calendar.getTime();
-		System.out.println(date);
-		
+
+		int a=  1;
+		int b = 2;
+		a ^= b;
+		b ^= a;
+		a ^= b;
+		System.out.println(a);
+		System.out.println(b);
+
+//		//Calendar默认也表示当前系统时间
+//		Calendar calendar
+//			= Calendar.getInstance();
+//		/*
+//		 * Calendar的toString输出的信息很多
+//		 * 但是不能直观的看出具体日期
+//		 */
+//		System.out.println(calendar);
+//		/*
+//		 * Date getTime()
+//		 * Calendar提供的getTime方法可以获取
+//		 * 一个Date，该实例表示的就是当前Calendar
+//		 * 所表示的日期
+//		 */
+//		Date date = calendar.getTime();
+//		System.out.println(date);
+//
 		/*
 		 * Calendar另一个方法：
 		 * void setTime(Date date)

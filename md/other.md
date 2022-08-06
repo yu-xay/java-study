@@ -3,7 +3,7 @@
 Integral.toString(int ) 或 [Integral].toString()  //基本转 <字符串》
 Integer.parseInt(str); //字符串 转 < 基本 >
 Integral.valueOf(str)  //字符串/基本 转< 包装类 >
-
+NumberFormatException
 
 
 String.valueOf()  其他类型转字符串 内部实现其实也是调用 Integral.toString()
